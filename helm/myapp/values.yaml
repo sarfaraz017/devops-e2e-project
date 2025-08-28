@@ -1,0 +1,17 @@
+
+replicaCount: 2
+
+image:
+  repository: REPLACE_ME_REGISTRY/REPLACE_ME_REPO
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+resources: {}
+
+nodeSelector: {}
+tolerations: []
+affinity: {}

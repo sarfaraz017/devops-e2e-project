@@ -1,0 +1,7 @@
+
+apiVersion: v2
+name: myapp
+description: DevOps E2E sample app
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
