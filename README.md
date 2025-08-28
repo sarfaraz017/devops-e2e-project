@@ -28,7 +28,3 @@ This repository provides a complete, from-scratch example you can use to practic
 3. Use Helm to deploy new image to EKS cluster.
 4. Terraform manages EKS & ECR infra.
 
-## Notes
-- Terraform contains example configs; adapt AWS region/account IDs and credentials.
-- The Jenkinsfile is ready to run in a Jenkins server with Docker and AWS credentials configured.
-- This repo is educational. Review and harden before production use.
